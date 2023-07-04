@@ -1,0 +1,23 @@
+.course-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .course-item-enter {
+    opacity: 0;
+  }
+  
+  .course-item-enter-active {
+    opacity: 1;
+    transition: opacity 500ms;
+  }
+  
+  .course-item-exit {
+    opacity: 1;
+  }
+  
+  .course-item-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+  }
+  
